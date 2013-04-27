@@ -6,6 +6,13 @@ Version 1.0
 
 This plugin will allow star ratings to user.
 
+Watch Installation Video
+------------------------
+Watch video for comelete installation and setup guide.
+
+- [Watch on TV - Q2A Market][watch-tv]
+- [Watch on Youtube][watch-youtube]
+
 Installation Guide
 ------------------
 
@@ -109,7 +116,7 @@ $currentip = qa_remote_ip_address();
 if((in_array($currentip, $allipaddress)) || (qa_opt('q2am_star_ratings_loggedin') && !qa_is_logged_in())){
     $class = 'jDisabled';
 } else {
-	$class = '';
+    $class = '';
 }
 
 if($this->template=='question') {
@@ -167,3 +174,5 @@ See the [GNU General Public License][GNU] for more details.
 [store]:http://store.q2amarket.com
 [tv]:http://tv.q2amarket.com
 [youtube]:http://www.youtube.com/user/q2amarket
+[watch-tv]:http://tv.q2amarket.com/plugins/question2answer-star-ratings-plugin-by-q2a-market-installation-and-setup-guide/
+[watch-youtube]:http://www.youtube.com/watch?v=BkqTSbldRiM
