@@ -1,0 +1,97 @@
+/*
+*	Q2AM Star Ratings
+*
+*	stylesheet file for jquery plugin and q2a.
+*	File: q2am-star-ratings.css
+*	
+*	@author			Q2A Market
+*	@category		Plugin
+*	@Version: 		1.0
+*   @author URL:	http://www.q2amarket.com
+*	
+*	@Q2A Version	1.5.3
+*
+*	Modify stylesheet as per your need
+*/
+
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRatingAverage {
+	background-color:#f62929;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRatingColor {
+	background-color:#f4c239; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	/*background:	transparent url('js/icons/bg_jRatingInfos.png') no-repeat;*/
+	background: 	#333;
+	color:			#FFF;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
+
+/*********************/
+/** layer CSS **/
+/*********************/
+
+.q2am-star-ratings-container-vote{
+	float: left;
+	margin: 0 0 5px 0;
+}
+.q2am-star-ratings-container-content{
+	margin: 10px 0;
+}
+.q2am-star-ratings-container-vote .qa-voting{
+	float: none;
+}
+.q2am-star-ratings-element{
+	margin: 5px 0 0;
+}
+.q2am-star-ratings-container-vote .q2am-star-ratings-counter,
+.q2am-star-ratings-container-content .q2am-star-ratings-counter{
+	margin-top: 2px;
+	color:#666;
+}
+.q2am-star-ratings-container-vote .q2am-star-ratings-counter{
+	font-size: 10px;
+}
+.q2am-star-ratings-container-content .q2am-star-ratings-counter{
+	font-size: 12px;
+}
+.q2am-star-ratings-container-vote:hover .q2am-star-ratings-counter,
+.q2am-star-ratings-container-content:hover .q2am-star-ratings-counter{
+	color:#333;
+}
+.q2am-zero-rate-count{color: #a00}
