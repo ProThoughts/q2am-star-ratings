@@ -102,7 +102,7 @@ class qa_html_theme_layer extends qa_html_theme_base
 
 	function voting($post)
 	{	
-		if(qa_opt('q2am_star_ratings_enable') && qa_opt('q2am_star_ratings_position') === 'below votebox'){
+		if(qa_opt('q2am_star_ratings_enable') && qa_opt('q2am_star_ratings_position') === 'below votebox' && $this->template=='question'){
 
 			$post_id = $post['raw']['postid'];
 
