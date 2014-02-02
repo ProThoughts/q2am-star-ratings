@@ -57,12 +57,13 @@ class q2am_star_rating_process
 
 	function process_event($event, $userid, $handle, $cookieid, $params)
 	{
-		if($event == 'q_post' || $event == 'a_post')
+		if($event == 'q_post' || $event == 'a_post') {
 			$post_id = $params['postid'];
 			qa_db_query_sub("
 				INSERT INTO ^star_ratings (post_id)
 				VALUE ($post_id)
 			");
+		}
 	}
 
 	function allow_template($template)
