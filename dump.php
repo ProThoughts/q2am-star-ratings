@@ -4,7 +4,7 @@
 	require_once QA_INCLUDE_DIR.'qa-db.php';
 
 	$result = qa_db_query_sub("
-		INSERT INTO qa_star_ratings(post_id) 
+		INSERT INTO ^star_ratings(post_id) 
 		SELECT postid 
 		FROM qa_posts
 		WHERE type in ('Q', 'A')
