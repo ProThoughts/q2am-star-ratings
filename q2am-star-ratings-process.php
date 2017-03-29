@@ -61,48 +61,6 @@ class q2am_star_rating_process
                 ");
             }
 
-            echo '<pre>', var_dump($check_record->num_rows), '</pre>';
-
-
-//            if (qa_opt('q2am_star_ratings_db_version') == 1) {
-//
-//                qa_db_query_sub("
-//                    INSERT INTO ^star_ratings(post_id)
-//                    SELECT postid
-//                    FROM qa_posts
-//                    WHERE type in ('Q', 'A')
-//                    ORDER BY postid ASC
-//                ");
-//
-//            }
-
-//            if ( qa_opt( 'q2am_star_ratings_db_version' ) >= 2 ) {
-//                return;
-//            } elseif ( in_array( $tablename, $tableslc ) && qa_opt( 'q2am_star_ratings_db_version' ) < 2 ) {
-//
-//                qa_db_query_sub( "
-//                    ALTER TABLE ^star_ratings
-//                    DROP COLUMN id,
-//                    MODIFY COLUMN post_id INT(10) UNSIGNED NOT NULL,
-//                    ADD COLUMN user_id INT(10) UNSIGNED NOT NULL,
-//                    ADD PRIMARY KEY (post_id),
-//                    ADD CONSTRAINT post_id_fk FOREIGN KEY (post_id) REFERENCES qa_posts (postid)
-//                    ON DELETE CASCADE
-//                    ON UPDATE CASCADE;
-//                " );
-//
-//                qa_db_query_sub( "
-//                    INSERT INTO ^star_ratings(post_id)
-//                    SELECT postid
-//                    FROM qa_posts
-//                    WHERE type in ('Q', 'A')
-//                    AND NOT EXISTS ( SELECT post_id FROM ^star_ratings WHERE post_id = qa_posts.postid)
-//                    ORDER BY postid ASC
-//                " );
-//
-//                qa_opt( 'q2am_star_ratings_db_version', 2 );
-//            }
-
         }
 
     }
