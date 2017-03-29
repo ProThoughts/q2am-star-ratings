@@ -140,7 +140,7 @@ Now star ratings should display on the custom place. You can modify html and cla
 
 Change Logs
 ===========
-####Version 1.0.1
+#### Version 1.0.1
  - Added support to Question2Answer 1.7
  - Dropped support below Question2Answer 1.7
  - Fixed major bugs
