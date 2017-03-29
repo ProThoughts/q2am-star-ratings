@@ -1,14 +1,14 @@
 <?php
 /*
-	Plugin Name: Q2AM Star Ratings
-	Plugin URI: http://store.q2amarket.com/store/products/q2am-star-ratings/
-	Plugin Description: This plugin will add a stars rating system to the question page and allow rating questions and answers
-	Plugin Version: 1.01
-	Plugin Date: 2014-02-23
-	Plugin Author: Question2Answer
+	Plugin Name: Q2A Market Star Ratings
+	Plugin URI: http://store.q2amarket.com/q2a-free-plugins/star-ratings
+	Plugin Description: This plugin will add a stars rating system to the question page and allow rating questions and answers.
+	Plugin Version: 1.0.1
+	Plugin Date: 2017-03-29
+	Plugin Author: Q2A Market
 	Plugin Author URI: http://www.q2amarket.com
-	Plugin License: GPLv2
-	Plugin Minimum Question2Answer Version: 1.5
+	Plugin License: GPLv3+
+	Plugin Minimum Question2Answer Version: 1.7
 	Plugin Update Check URI: https://raw.github.com/q2amarket/q2am-star-ratings/master/qa-plugin.php
 */
 

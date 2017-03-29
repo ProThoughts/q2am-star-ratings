@@ -59,7 +59,7 @@ class q2am_star_ratings
 
 		$rowcount = qa_db_query_sub("SELECT COUNT(*) FROM ^star_ratings");
 
-		if ($rowcount >= 1){			
+		if ($rowcount->num_rows >= 1){
 			$result = qa_db_read_one_assoc($query, true);
 		} else {
 			$result = 0;

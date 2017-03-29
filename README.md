@@ -1,10 +1,10 @@
 Q2AM Star Ratings
 =================
 
-Version 1.0
+Version 1.0.1
 ------------
 
-This plugin will allow star ratings to user.
+This plugin will add a stars rating system to the question page and allow rating questions and answers.
 
 Watch Installation Video
 ------------------------
@@ -19,6 +19,8 @@ Installation Guide
 1. Extrat zip file.
 2. Place "q2am-star-ratings" directory to qa-plugin directory.
 3. Done
+
+*Note:* rename plugin root directory to `q2am-star-ratings` if required. Usually this happens if you downloading plugin zip file from github.
 
 Usage Guide
 -----------
@@ -138,7 +140,12 @@ Now star ratings should display on the custom place. You can modify html and cla
 
 Change Logs
 ===========
-First version
+####Version 1.0.1
+ - Added support to Question2Answer 1.7
+ - Dropped support below Question2Answer 1.7
+ - Fixed major bugs
+ - Prepare database and code for future updates
+
 
 
 About Question2Answer
