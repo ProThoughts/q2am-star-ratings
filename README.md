@@ -20,7 +20,7 @@ Installation Guide
 2. Place "q2am-star-ratings" directory to qa-plugin directory.
 3. Done
 
-*Note:* rename plugin root directory to `q2am-star-ratings` if required. Usually this happens if you downloading plugin zip file from github.
+***Note:*** rename plugin root directory to `q2am-star-ratings` if required. Usually this happens if you downloading plugin zip file from github.
 
 Usage Guide
 -----------
